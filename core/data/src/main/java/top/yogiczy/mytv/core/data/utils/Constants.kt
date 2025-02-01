@@ -31,11 +31,11 @@ object Constants {
         listOf(
             IptvSource(
                 name = "山东电信",
-                url = "https://raw.githubusercontent.com/sumingyd/Telecom-Shandong-IPTV-List/refs/heads/main/Telecom-Shandong.m3u",
+                url = "https://gitee.com/administer/Telecom-Shandong-IPTV-List/raw/main/Telecom-Shandong.m3u",
             ),
             IptvSource(
                 name = "山东联通",
-                url = "https://raw.githubusercontent.com/sumingyd/Telecom-Shandong-IPTV-List/refs/heads/main/Unicom-Shandong.m3u",
+                url = "https://gitee.com/administer/Telecom-Shandong-IPTV-List/raw/main/Unicom-Shandong.m3u",
             ),
             IptvSource(
                 name = "默认直播源 fanmingming（IPV6）",
