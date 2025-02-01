@@ -26,7 +26,6 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
-
         buildConfigField("String", "SENTRY_DSN", "\"${getProperty("sentry.dsn") ?: ""}\"")
     }
 
@@ -41,7 +40,8 @@ android {
             signingConfig = signingConfigs.getByName("release")
 
             ndk {
-                abiFilters.addAll(listOf("armeabi-v7a", "arm64-v8a"))
+                //abiFilters.addAll(listOf("armeabi-v7a", "arm64-v8a", "x86", "x86_64"))
+                abiFilters.addAll(listOf("armeabi-v7a"))
             }
         }
     }
