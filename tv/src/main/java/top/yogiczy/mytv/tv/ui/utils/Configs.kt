@@ -253,7 +253,7 @@ object Configs {
 
     /** 起始界面 */
     var appStartupScreen: String
-        get() = SP.getString(KEY.APP_STARTUP_SCREEN.name, Screens.Dashboard.name)
+        get() = SP.getString(KEY.APP_STARTUP_SCREEN.name, Screens.Live.name)//Dashboard TODO
         set(value) = SP.putString(KEY.APP_STARTUP_SCREEN.name, value)
 
     /** ==================== 调式 ==================== */
@@ -450,7 +450,7 @@ object Configs {
 
     /** 使用经典选台界面 */
     var uiUseClassicPanelScreen: Boolean
-        get() = SP.getBoolean(KEY.UI_USE_CLASSIC_PANEL_SCREEN.name, false)
+        get() = SP.getBoolean(KEY.UI_USE_CLASSIC_PANEL_SCREEN.name, true)//false TODO
         set(value) = SP.putBoolean(KEY.UI_USE_CLASSIC_PANEL_SCREEN.name, value)
 
     /** 界面密度缩放比例 */
